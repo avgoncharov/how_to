@@ -40,12 +40,21 @@ namespace send_mail
 			string mailFrom = "userFrom@fromDomainName.com";
 			string mailTo = "userTo@toDomainName.ru";
 
+			if (args.Length >= 2) {// First argument - mailFrom, second - mailTo.
+				mailFrom = args[0];				
+				mailTo = args[1];
+			}
+
+			Console.WriteLine(mailFrom);
+			Console.WriteLine(mailTo);
+
 			using (var msg = new MailMessage(mailFrom, mailTo)) {
 				msg.Subject = "Test mail";
 				msg.Body = "<h4>This is test mail.</h4><div style=\"color:gray\">Hello.</div>";
 				msg.IsBodyHtml = true;
 
-				using (var smtp = CreateSmtp()) {
+				// If we pass three arguments and last argument is equal to '-def'  then program uses hardcoding, otherwise program uses app.config.
+				using (var smtp = CreateSmtp(args.Length == 3 ? args[2] == "-def": false)) {
 					try {
 						smtp.Send(msg);
 						Console.WriteLine("Ok");
@@ -62,6 +71,7 @@ namespace send_mail
 		#region Private
 		private static SmtpClient CreateSmtp(bool useDefault = false)
 		{
+			Console.WriteLine(useDefault);
 			if (!useDefault)
 				return new SmtpClient();
 
