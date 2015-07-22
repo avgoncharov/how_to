@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
-# This script creates backup and updates site(or service) by simply copying of files and directories.
+# This script creates backup and updates site(or service) by simple copying of files and directories.
 import os
 import sys
 import time
