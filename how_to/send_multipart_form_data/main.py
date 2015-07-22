@@ -1,4 +1,4 @@
-# This code was geted from  http://stackoverflow.com/questions/680305/using-multipartposthandler-to-post-form-data-with-python
+# This code was taken from  http://stackoverflow.com/questions/680305/using-multipartposthandler-to-post-form-data-with-python
 
 import http.client
 import mimetypes
