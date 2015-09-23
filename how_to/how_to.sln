@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "send_mail", "send_mail\send_mail.csproj", "{D4B8680C-A7D8-4E11-BCA2-65A40B55CC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "Simple\Simple.csproj", "{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D4B8680C-A7D8-4E11-BCA2-65A40B55CC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B8680C-A7D8-4E11-BCA2-65A40B55CC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B8680C-A7D8-4E11-BCA2-65A40B55CC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
