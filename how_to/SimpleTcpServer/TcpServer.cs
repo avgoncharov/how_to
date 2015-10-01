@@ -9,7 +9,7 @@ using System.Threading;
 namespace SimpleTcpServer
 {
 	/// <summary>
-	/// Simple not blocked Tcp server.
+	/// Simple non-blocking tcp server.
 	/// </summary>
 	public class TcpServer
 	{
