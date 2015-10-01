@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "send_mail", "send_mail\send
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "Simple\Simple.csproj", "{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTcpServer", "SimpleTcpServer\SimpleTcpServer.csproj", "{16AB5843-C525-4EA7-AD14-7A950CD14826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A90A23-1B33-4A7E-AA97-41CE2D6B317F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AB5843-C525-4EA7-AD14-7A950CD14826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AB5843-C525-4EA7-AD14-7A950CD14826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AB5843-C525-4EA7-AD14-7A950CD14826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AB5843-C525-4EA7-AD14-7A950CD14826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
